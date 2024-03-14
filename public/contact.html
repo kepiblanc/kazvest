@@ -94,7 +94,7 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="titlepage">
-                        <h2>Contact Us</h2>
+                        <h2>APPLY FOR FUNDING</h2>
                     </div>
                 </div>
             </div>
@@ -108,25 +108,25 @@
             <div class="row">
                 <div class="col-md-12">
 
-                    <form class="main_form">
+                    <div class="main_form">
                         <div class="row">
                             <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6">
-                                <input class="form-control" placeholder="Your name" type="text" name="Your Name">
+                                <input class="form-control" placeholder="Your name" type="text" name="applicant_name" id="applicant_name">
                             </div>
                             <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6">
-                                <input class="form-control" placeholder="Email" type="text" name="Email">
+                                <input class="form-control" placeholder="Email" type="text" name="applicant_email" id="applicant_email">
                             </div>
                             <div class=" col-md-12">
-                                <input class="form-control" placeholder="Phone" type="text" name="Phone">
+                                <input class="form-control" placeholder="Phone" type="text" name="applicant_phone" id="applicant_phone">
                             </div>
                             <div class="col-md-12">
-                                <textarea class="textarea" placeholder="Message"></textarea>
+                                <textarea class="textarea" placeholder="Enter every important detail about your buisness here, including links. If you need to share any documents upload to Google Drive or Dropbox and append the link here" rows="10" name="applicant_message" id="applicant_message"></textarea>
                             </div>
                             <div class=" col-md-12">
-                                <button class="send">Send</button>
+                                <button class="send" onclick="submitApplication()">Send</button>
                             </div>
                         </div>
-                    </form>
+                     </div>
                 </div>
             </div>
         </div>
@@ -139,60 +139,53 @@
                <div class="row">
                   <div class="col-md-6 offset-md-3">
                      <ul class="sociel">
-                         <li> <a href="#"><i class="fa fa-facebook-f"></i></a></li>
-                         <li> <a href="#"><i class="fa fa-twitter"></i></a></li>
-                         <li> <a href="#"><i class="fa fa-instagram"></i></a></li>
-                         <li> <a href="#"><i class="fa fa-instagram"></i></a></li>
+                           <li> <a href="#"><i class="fa fa-facebook-f"></i></a></li>
+                           <li> <a href="#"><i class="fa fa-twitter"></i></a></li>
+                           <li> <a href="#"><i class="fa fa-instagram"></i></a></li>
+                           <li> <a href="#"><i class="fa fa-instagram"></i></a></li>
                      </ul>
                   </div>
             </div>
             <div class="row">
-               <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+               <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
                   <div class="contact">
                      <h3>conatct us</h3>
                      <span>123 Second Street Fifth Avenue,<br>
-                       Manhattan, New York
+                        Manhattan, New York<br>
                         +987 654 3210</span>
                   </div>
                </div>
-                 <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+                  <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
                   <div class="contact">
                      <h3>ADDITIONAL LINKS</h3>
                      <ul class="lik">
-                         <li> <a href="#">About us</a></li>
-                         <li> <a href="#">Terms and conditions</a></li>
-                         <li> <a href="#">Privacy policy</a></li>
-                         <li> <a href="#">News</a></li>
-                          <li> <a href="#">Contact us</a></li>
+                           <li> <a href="about.html">About us</a></li>
+                           <li> <a href="contact.html">Apply</a></li>
                      </ul>
                   </div>
                </div>
-                 <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+               <!--<div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
                   <div class="contact">
                      <h3>service</h3>
-                      <ul class="lik">
-                    <li> <a href="#"> Data recovery</a></li>
-                         <li> <a href="#">Computer repair</a></li>
-                         <li> <a href="#">Mobile service</a></li>
-                         <li> <a href="#">Network solutions</a></li>
-                          <li> <a href="#">Technical support</a></li>
+                        <ul class="lik">
+                     <li> <a href="#"> Data recovery</a></li>
+                           <li> <a href="#">Computer repair</a></li>
+                           <li> <a href="#">Mobile service</a></li>
+                           <li> <a href="#">Network solutions</a></li>
+                           <li> <a href="#">Technical support</a></li>
                   </div>
                </div>
-                 <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+               <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
                   <div class="contact">
-                     <h3>IT NEXT THEME</h3>
-                     <span>Tincidunt elit magnis <br>
-                     nulla facilisis. Dolor <br>
-                  sagittis maecenas. <br>
-               Sapien nunc amet <br>
-            ultrices, </span>
+                     <h3>About lighten</h3>
+                     <span>Tincidunt elit magnis nulla facilisis. Dolor Sapien nunc amet ultrices, </span>
                   </div>
-               </div>
+               </div>-->
             </div>
          </div>
-            <div class="copyright">
+            <!--<div class="copyright">
                <p>Copyright 2019 All Right Reserved By <a href="https://html.design/">Free html Templates</a> Distributed By <a href="https://themewagon.com">ThemeWagon </a></p>
-            </div>
+            </div>-->
          
       </div>
       </footr>
@@ -207,6 +200,7 @@
       <script src="js/jquery.mCustomScrollbar.concat.min.js"></script> 
       <script src="js/custom.js"></script>
       <script src="https:cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/axios@1.4.0/dist/axios.min.js"></script>
       <script>
          $(document).ready(function(){
          $(".fancybox").fancybox({
@@ -224,5 +218,15 @@
          });
          
       </script> 
+      <script>
+         const submitApplication = async () => {
+            const applicant_name = document.getElementById('applicant_name').value;
+            const applicant_email = document.getElementById('applicant_email').value;
+            const applicant_phone = document.getElementById('applicant_phone').value;
+            const applicant_message =  document.getElementById('applicant_message').value;
+
+            const sendApplication = await axios.post('/process-application', {applicant_name, applicant_email, applicant_phone, applicant_message})
+         }
+      </script>
    </body>
 </html>
